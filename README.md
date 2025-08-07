@@ -14,7 +14,7 @@ A scalable, high-throughput microservice built in C#/.NET that ingests data from
 
 ### **TcpMessageProcessor.Infrastructure** (Infrastructure Layer)  
 **Goal:** Implements core interfaces with external dependencies (Redis, RabbitMQ)  
-**Purpose:** Handles all external concerns like databases, message brokers, and parsing
+**Purpose:** Handles all external concerns like caching, message brokers, and binary parsing
 
 - **Parsing:** `BinaryMessageParser` - Big Endian binary protocol parsing
 - **Services:** `RedisDeduplicationService`, `MessageRouter`, `MessageProcessor`
@@ -65,12 +65,12 @@ A scalable, high-throughput microservice built in C#/.NET that ingests data from
 ### Prerequisites
 - .NET 8.0 SDK
 - Docker and Docker Compose
-- Git
 
 ### 1. Clone and Build
 ```bash
 git clone <repository-url>
 cd TcpMessageProcessor
+dotnet restore
 dotnet build
 ```
 
@@ -107,17 +107,17 @@ dotnet run --project MessageSender
 ```
 
 **Expected results:**
-- 4 messages sent to TCP server
-- 2 unique messages processed
-- 2 duplicates discarded
-- Messages appear in RabbitMQ queues
+- TCP server processes 4 messages
+- 2 unique messages successfully processed and queued
+- 2 duplicate messages correctly discarded
+- Messages stored in RabbitMQ `device-events` queue
 
 ### 5. Verify Results
 
 **RabbitMQ Management UI:**
 - URL: http://localhost:15672
 - Login: `admin` / `password123`
-- Check "Queues" tab for message counts
+- Navigate to "Queues" tab to see message counts in `device-events` queue
 
 **Redis Data:**
 ```bash
@@ -175,7 +175,7 @@ docker exec -it tcp-processor-redis redis-cli
 
 ### Clean Architecture
 - **Domain Core:** Business logic without dependencies
-- **Infrastructure:** External concerns (databases, message brokers)
+- **Infrastructure:** External concerns (Redis, RabbitMQ, parsing)
 - **Service Layer:** Application business logic and orchestration
 - **Presentation:** API hosting and dependency injection
 
@@ -251,12 +251,12 @@ dotnet build
 - ✅ Production-ready architecture
 - ✅ Clean separation of concerns
 
-### Production Enhancements
-- **Structured Logging:** Serilog with centralized logging
-- **Metrics Collection:** Prometheus/Grafana monitoring
-- **Health Checks:** Deep health monitoring with external dependencies
-- **Security:** TLS encryption, authentication, and authorization
-- **High Availability:** Redis Cluster, RabbitMQ clustering
+### Production Enhancements (Future Roadmap)
+- **Structured Logging:** Serilog with centralized log aggregation
+- **Metrics Collection:** Prometheus/Grafana for monitoring and alerting
+- **Advanced Health Checks:** Deep health monitoring with dependency validation
+- **Security Enhancements:** TLS encryption, authentication, and authorization
+- **High Availability:** Redis Sentinel, RabbitMQ clustering for zero downtime
 
 ## 📝 Assignment Modifications
 
@@ -267,7 +267,7 @@ The original MessageSender was modified to use **Big Endian format** as required
 **Solution:** Manual byte writing to ensure Big Endian compliance  
 **Authorization:** Assignment instructions stated "feel free to modify it if needed"
 
-This change was necessary to properly test the microservice implementation.
+This modification was **necessary and permitted** to properly test the microservice implementation.
 
 ---
 
