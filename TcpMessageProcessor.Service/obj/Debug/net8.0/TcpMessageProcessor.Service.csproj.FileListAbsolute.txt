@@ -1,0 +1,17 @@
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Service.deps.json
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Service.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Service.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Core.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Infrastructure.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Core.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\bin\Debug\net8.0\TcpMessageProcessor.Infrastructure.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.csproj.AssemblyReference.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.AssemblyInfoInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.AssemblyInfo.cs
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessa.08E8E30F.Up2Date
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\refint\TcpMessageProcessor.Service.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\TcpMessageProcessor.Service.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Service\obj\Debug\net8.0\ref\TcpMessageProcessor.Service.dll

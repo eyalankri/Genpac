@@ -1,0 +1,11 @@
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\bin\Debug\net8.0\TcpMessageProcessor.Core.deps.json
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\bin\Debug\net8.0\TcpMessageProcessor.Core.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\bin\Debug\net8.0\TcpMessageProcessor.Core.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\TcpMessageProcessor.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\TcpMessageProcessor.Core.AssemblyInfoInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\TcpMessageProcessor.Core.AssemblyInfo.cs
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\TcpMessageProcessor.Core.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\TcpMessageProcessor.Core.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\refint\TcpMessageProcessor.Core.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\TcpMessageProcessor.Core.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Core\obj\Debug\net8.0\ref\TcpMessageProcessor.Core.dll

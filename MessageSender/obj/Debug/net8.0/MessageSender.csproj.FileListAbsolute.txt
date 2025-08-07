@@ -1,0 +1,28 @@
+C:\Projects\!_Assignments\Hoopo\MessageSender\bin\Debug\net8.0\MessageSender.exe
+C:\Projects\!_Assignments\Hoopo\MessageSender\bin\Debug\net8.0\MessageSender.deps.json
+C:\Projects\!_Assignments\Hoopo\MessageSender\bin\Debug\net8.0\MessageSender.runtimeconfig.json
+C:\Projects\!_Assignments\Hoopo\MessageSender\bin\Debug\net8.0\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo\MessageSender\bin\Debug\net8.0\MessageSender.pdb
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.AssemblyInfoInputs.cache
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.AssemblyInfo.cs
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\refint\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.pdb
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\MessageSender.genruntimeconfig.cache
+C:\Projects\!_Assignments\Hoopo\MessageSender\obj\Debug\net8.0\ref\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\bin\Debug\net8.0\MessageSender.exe
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\bin\Debug\net8.0\MessageSender.deps.json
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\bin\Debug\net8.0\MessageSender.runtimeconfig.json
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\bin\Debug\net8.0\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\bin\Debug\net8.0\MessageSender.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.AssemblyInfoInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.AssemblyInfo.cs
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\refint\MessageSender.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\MessageSender.genruntimeconfig.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\MessageSender\obj\Debug\net8.0\ref\MessageSender.dll

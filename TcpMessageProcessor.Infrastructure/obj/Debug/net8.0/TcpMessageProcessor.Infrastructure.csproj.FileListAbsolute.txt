@@ -1,0 +1,15 @@
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.AssemblyInfo.cs
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\bin\Debug\net8.0\TcpMessageProcessor.Infrastructure.deps.json
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\bin\Debug\net8.0\TcpMessageProcessor.Infrastructure.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\bin\Debug\net8.0\TcpMessageProcessor.Infrastructure.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\bin\Debug\net8.0\TcpMessageProcessor.Core.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\bin\Debug\net8.0\TcpMessageProcessor.Core.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\refint\TcpMessageProcessor.Infrastructure.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessageProcessor.Infrastructure.pdb
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\ref\TcpMessageProcessor.Infrastructure.dll
+C:\Projects\!_Assignments\Hoopo - Copy\TcpMessageProcessor\TcpMessageProcessor.Infrastructure\obj\Debug\net8.0\TcpMessa.ED95C9B7.Up2Date

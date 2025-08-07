@@ -1,0 +1,97 @@
+﻿using System.Collections.Concurrent;
+using TcpMessageProcessor.Core.Interfaces;
+using TcpMessageProcessor.Core.Models;
+
+namespace TcpMessageProcessor.Infrastructure.Services
+{
+    public class InMemoryDeduplicationService : IDeduplicationService
+    {
+        private readonly ConcurrentDictionary<string, DateTime> _messageKeys;
+        private DateTime _lastCleanup = DateTime.UtcNow;
+        private readonly TimeSpan _cleanupInterval = TimeSpan.FromMinutes(5);
+
+        public InMemoryDeduplicationService()
+        {
+            _messageKeys = new ConcurrentDictionary<string, DateTime>();
+        }
+
+        public Task<DeduplicationResult> CheckAndStoreAsync(DeviceMessage message)
+        {
+            var key = GenerateKey(message.DeviceId, message.MessageCounter);
+            var now = DateTime.UtcNow;
+
+            // Try to add the key. If it already exists, it's a duplicate
+            bool wasAdded = _messageKeys.TryAdd(key, now);
+
+            // Perform periodic cleanup to prevent memory leaks
+            PerformPeriodicCleanup(now);
+
+            var result = wasAdded
+                ? DeduplicationResult.Unique(message)
+                : DeduplicationResult.Duplicate(message);
+
+            return Task.FromResult(result);
+        }
+
+        public Task ClearOldEntriesAsync(TimeSpan maxAge)
+        {
+            var cutoffTime = DateTime.UtcNow - maxAge;
+            var keysToRemove = new List<string>();
+
+            // Find keys older than the cutoff
+            foreach (var kvp in _messageKeys)
+            {
+                if (kvp.Value < cutoffTime)
+                {
+                    keysToRemove.Add(kvp.Key);
+                }
+            }
+
+            // Remove old keys
+            foreach (var key in keysToRemove)
+            {
+                _messageKeys.TryRemove(key, out _);
+            }
+
+            return Task.CompletedTask;
+        }
+
+        private string GenerateKey(byte[] deviceId, ushort messageCounter)
+        {
+            // Create a unique key combining device ID and message counter
+            var deviceIdHex = Convert.ToHexString(deviceId);
+            return $"{deviceIdHex}:{messageCounter}";
+        }
+
+        private void PerformPeriodicCleanup(DateTime now)
+        {
+            // Only perform cleanup if enough time has passed
+            if (now - _lastCleanup < _cleanupInterval)
+            {
+                return;
+            }
+
+            // Update cleanup time - multiple threads might do cleanup, but that's harmless
+            _lastCleanup = now;
+
+            // Clean up entries older than 1 hour in background
+            _ = Task.Run(async () =>
+            {
+                try
+                {
+                    await ClearOldEntriesAsync(TimeSpan.FromHours(1));
+                }
+                catch
+                {
+                    // Swallow cleanup exceptions to prevent affecting main flow
+                }
+            });
+        }
+
+        // For testing/monitoring purposes
+        public int GetStoredMessageCount()
+        {
+            return _messageKeys.Count;
+        }
+    }
+}
